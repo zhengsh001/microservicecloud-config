@@ -1,14 +1,14 @@
 spring: 
-    profiles: 
-        active: 
-        - dev
+  profiles: 
+    active: 
+    - dev
 ---
 spring: 
-    profiles: dev
-    application: 
-        name: microservicecloud-config-zsh-dev
+  profiles: dev
+  application: 
+    name: microservicecloud-config-zsh-dev
 ---        
 spring: 
-    profiles: test
-    application: 
-        name: microservicecloud-config-zsh-test
+  profiles: test
+  application: 
+    name: microservicecloud-config-zsh-test
